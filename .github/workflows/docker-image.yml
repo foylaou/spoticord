@@ -33,4 +33,4 @@ jobs:
         context: .
         file: ./Dockerfile
         push: true
-        tags: ${{ secrets.DOCKERHUB_USERNAME }}/your-image-name:latest,${{ secrets.DOCKERHUB_USERNAME }}/your-image-name:${{ env.SHORT_SHA }}
+        tags: ${{ secrets.DOCKERHUB_USERNAME }}/spoticord-backend:latest,${{ secrets.DOCKERHUB_USERNAME }}/spoticord-backend:${{ env.SHORT_SHA }}
